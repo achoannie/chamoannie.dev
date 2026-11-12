@@ -1,0 +1,42 @@
+
+/* #355C7D */
+
+
+
+:root,
+[data-theme="default"] { /* cinnamon creme */
+    --bg: #fff4ec;
+    --text: #5a3a2e;
+    --accent: #d9825b;
+    --card: #ffffffcc;
+}
+/* -w- */
+[data-theme="night"] {
+    --bg: #355C7D;
+    --text: #f2e9ff;
+    --accent: #f8b195;
+    --card: #2a4a66cc;
+}
+/* red berry */
+[data-theme="error"] {
+    --bg: ;
+    --text: ;
+    --accent: ;
+}
+
+body {
+    font-family: "rainyhearts", monospace, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+}
+main {
+    h1 {
+        font-family: "Kuchibue", "rainyhearts", monospace, sans-serif;
+    }
+    h2 {
+        font-size: 30px;
+    }
+}
+a {
+    color: var(--accent);
+}
