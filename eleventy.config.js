@@ -1,8 +1,8 @@
 export default function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("content/css");
-  eleventyConfig.addPassthroughCopy("content/js");
-  eleventyConfig.addPassthroughCopy("content/assets");
-  eleventyConfig.addPassthroughCopy("content/*.{svg,ico,png,txt}");
+    eleventyConfig.addPassthroughCopy("css");
+    eleventyConfig.addPassthroughCopy("js");
+    eleventyConfig.addPassthroughCopy("assets");
+    eleventyConfig.addPassthroughCopy("favicon.*");
 }
 
 export const config = {
